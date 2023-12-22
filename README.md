@@ -2,9 +2,9 @@
 O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da SEMADEC. O nível de complexidade é alta, considerando a necessidade de desenvolver interfaces com microfuncionalidades.
 
 ## Colaboradores
-- Cristian Cauã
-- Glaube Vasconcelos
-- Rickson Ramon
+- Cristian Cauã (virosdjbr)
+- Glaube Vasconcelos (rezacavalera89)
+- Rickson Ramon (Stajam)
 
 ## Tarefas (21/12/2023)
 - [ ] Montagem de página de login (Todos)
