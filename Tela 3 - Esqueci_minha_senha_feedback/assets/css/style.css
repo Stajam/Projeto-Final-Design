@@ -61,22 +61,11 @@ body{
   font-family: Open Sans;
 }
 
-.digite-email{
-  padding: 10px;
-  color: #828282;
-  font-family: Open Sans;
-}
-
 .principal button{
   font-family: Poppins;
   background-color: #307FE2;
 }
 
-.email-label{
-  color: #051D33;
-  font-family: Open Sans;
-  font-weight: 600;
-}
 
 .texto{
   color: #333;
