@@ -8,8 +8,8 @@ O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da 
 
 ## Tarefas (21/12/2023)
 - [ ] Montagem de página de login (Todos)
-- [x] Criação do repositório (Glaube)
-- [x] Envio de convites aos colaboradores (Glaube)
+- [x] Criação do repositório (Rickson)
+- [x] Envio de convites aos colaboradores (Rickson)
 
 ## Tarefas (28/12/2023)
 ## Tarefas (29/12/2023)
