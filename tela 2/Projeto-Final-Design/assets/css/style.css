@@ -110,3 +110,11 @@ body{
   font-weight: 400;
   line-height: normal;
 }
+.dados>h3{
+  color: #051D33;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
