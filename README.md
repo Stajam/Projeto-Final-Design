@@ -12,7 +12,7 @@ O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da 
 - [x] Envio de convites aos colaboradores (Rickson)
 
 ## Tarefas (28/12/2023)
-- [X] Montagem da telas 2 (esqueci_minha_senha) e 4 (renovar_senha): (Cristian)
+- [X] Montagem das telas 2 (esqueci_minha_senha) e 4 (renovar_senha): (Cristian)
 - [X] Montagem da tela 3 (esqueci_minha_senha_feedback): (Glaube)
 - [X] Montagem da tela 5 (renovar_senha_feedback): (Rickson)
       
