@@ -1,53 +1,46 @@
-.card-info p{
-  color: #333;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.card-info span{
-  color: #4F4F4F;
-  font-weight: 400; 
-}
-
-#exibir-categorias{
-  color: var(--A1, #0095D9);
-  font-family: Open Sans;
+.dash-item p{
+  color:#333;
+  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration-line: underline; 
-}
-#individual{
-  background-color: #E9F8FF;
-  border-radius: 100px; 
-  width: 67px;
-  height: 20px;
+  letter-spacing: 0.14px; 
 }
 
-#individual > p{
+#modalidades p{
   color: #0095D9;
-  font-family: Open Sans;
-  font-size: 12px;
+}
+
+.perfil p{
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
   font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.perfil span{
+  color:  #4F4F4F;
+  font-size: 12px;
   font-weight: 400;
-  line-height: normal; 
 }
 
-.card-info{
-  gap: 20px;
-  border-radius: 8px;
-  border: 1px solid #E0E0E0;
+.dashboard-container{
+  width: 12.5rem;
 }
 
-.ibagem{
-  padding-bottom: 20px;
-  border-bottom: 1px solid #E0E0E0;
+#awe_logo{
+  padding: 5.55px;
 }
 
-#inscricoes{
-  padding-bottom: 20px;
-  border-bottom: 1px solid #E0E0E0;
+.dashboard{
+    height: 100vh;
+    padding: 2rem;
+    width: min-content;
+}
+
+#menu_bar{
+    padding: 11.43px;
+}
