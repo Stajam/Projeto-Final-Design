@@ -1,3 +1,17 @@
+.buttons-container{
+  gap: 20px;
+}
+
+#modalidades{
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  background: #F5F5F5;
+}
+
+#modalidades-container{
+  padding-bottom: 20px;
+}
+
 .dash-item p{
   color:#333;
   font-family: Poppins;
@@ -43,4 +57,8 @@
 
 #menu_bar{
     padding: 11.43px;
+}
+
+.container{
+  margin-left: 237px !important;
 }
