@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.card-info p{
+    color: #333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+.card-info span{
+    color: #4F4F4F;
+    font-weight: 400; 
+}
+  
+#exibir-categorias{
+    color: var(--A1, #0095D9);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline; 
+}
+  
+#individual{
+    background-color: #E9F8FF;
+    border-radius: 100px; 
+    width: 67px;
+    height: 20px;
+}
+  
+  
+#individual > p{
+    color: #0095D9;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+  
+  
+.card-info{
+    gap: 20px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+  
+  
+.ibagem{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+  
+  
+#inscricoes{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
