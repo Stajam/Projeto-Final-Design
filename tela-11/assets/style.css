@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.card-info p{
+    color: #333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-info span{
+    color: #4F4F4F;
+    font-weight: 400; 
+}
+
+#exibir-categorias{
+    color: var(--A1, #0095D9);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline; 
+}
+
+#individual{
+    background-color: #E9F8FF;
+    border-radius: 100px; 
+    width: 67px;
+    height: 20px;
+}
+
+
+#individual > p{
+    color: #0095D9;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+.card-info{
+    gap: 20px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+
+.ibagem{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+#inscricoes{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.row{
+  --bs-gutter-x: -1.5rem !important;
+}
+
+.tabela .card-header{
+  padding: 12px 16px 12px 16px !important;
+}
+
+.tabela .list-group-item{
+  padding: 12px 16px 12px 16px !important;
+}
+.buttons-container{
+  gap: 20px;
+}
+
+#modalidades{
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  background: #F5F5F5;
+}
+
+#modalidades-container{
+  padding-bottom: 20px;
+}
+
+.dash-item p{
+  color:#333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px; 
+}
+
+#modalidades p{
+  color: #0095D9;
+}
+
+.perfil p{
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.perfil span{
+  color:  #4F4F4F;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.dashboard-container{
+  width: 12.5rem;
+}
+
+#awe_logo{
+  padding: 5.55px;
+}
+
+.dashboard{
+    height: 100vh;
+    padding: 2rem;
+    width: min-content;
+}
+
+#menu_bar{
+    padding: 11.43px;
+}
+
+.container{
+  margin-left: 237px !important;
+}

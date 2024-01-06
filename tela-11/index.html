@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tela-glaube</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="container mt-5" style="display: flex;">
+      <div class="dashboard d-flex flex-column justify-content-between border-end">
+        <div class="dashboard-box d-flex align-items-start">
+          <div class="dashboard-container d-flex flex-column gap-3">
+            <a href="#"><img id="awe_logo" src="assets/img/awe_logo.svg" style="width: 62px"></a>
+            <div class="buttons-container d-flex flex-column">
+              <div class="dash-item d-flex gap-2 align-items-center p-2">
+                <img src="assets/img/home_icon.svg">
+                <a class="text-decoration-none" href="#">
+                  <p class="m-0">Dashboard</p>
+                </a>
+              </div>
+              <div id="modalidades-container">
+                <div id="modalidades" class="dash-item d-flex align-items-center gap-2">
+                  <img src="assets/img/blue_star_icon.svg">
+                  <a class="text-decoration-none" href="#">
+                    <p class="m-0">Modalidades</p>
+                  </a>
+                </div>
+              </div>
+              <div class="dash-item d-flex gap-2 align-items-center p-2">
+                <img src="assets/img/exit_icon.svg">
+                <a class="text-decoration-none" href="#">
+                  <p class="m-0 text-danger">Sair</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a href="#"><img id="menu_bar" src="assets/img/menu_bar.svg"></a>
+        </div>
+        <div class="perfil d-flex gap-2">
+          <a href="#"><img src="assets/img/icon_user_circle.svg"></a>
+          <p class="m-0" style="width: 115px; height: fit-content;">Jr Programador<br><span>Atleta</span></p>
+        </div>
+      </div>
+
+      <div>
+        <p class="mb-3 open-sans-font gray-text font-size-lg" style="margin-top: -28px;"><span class="open-sans-font"
+            style="color: var(--A1, #0095D9);
+    font-family: Open Sans; font-size: 12px; font-style: normal; font-weight: 600; line-height: normal;">Modalidades</span>
+          > <span style="color: var(--A1, #0095D9);
+           font-family: Open Sans;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 600;
+    line-height: normal;">Natação</span> >
+          <span
+            style="color: #555;
+                                                                                       font-family: Open Sans;
+                                                                                       font-size: 12px;
+                                                                                       font-style: normal;
+                                                                                       font-weight: 400;
+                                                                                       line-height: normal;">Categorias</span>
+        </p>
+        <h1 class="mb-4 poppins-font" style="color: var(--Gray-1, #333);
+      font-variant-numeric: lining-nums tabular-nums;
+      font-size: 1.5rem; 
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;">Categorias de Modalidade</h1>
+        <div class="linha mb-4" style="border-bottom: 2px solid #BBB; margin-left: 1px;"></div>
+
+        <div class="row">
+          <div class="card-info d-flex flex-column p-3" style="width: 172px;">
+            <div class="ibagem d-flex justify-content-center">
+              <img src="assets/img/swimming_icon.svg" style="width: 100px;">
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <p class="m-0 text-right">Tipo</p>
+              <div class="d-flex justify-content-center align-items-center" id="individual">
+                <p class="m-0 text-right">Individual</p>
+              </div>
+            </div>
+            <div id="inscricoes">
+              <p class="m-0 mb-1 text-right">Inscrições</p>
+              <p class="m-0 text-right"><span>0 atletas</span></p>
+            </div>
+            <a id="exibir-categorias" href="#" class="text-right">Cadastrar</a>
+          </div>
+
+          <div class="card tabela" style="margin-left: 24px; width: 760px; height: 355px;">
+            <div class="card-header d-flex justify-content-between align-items-center ">
+              <span class="text-left"
+                style="color: #000; font-family: Open Sans; font-size: 14px; font-style: normal; font-weight: 600; line-height: normal;">Categorias</span>
+              <span class="text-right"
+                style="color: #000; font-family: Open Sans; font-size: 14px; font-style: normal; font-weight: 600; line-height: normal;">Ocupação</span>
+            </div>
+            <ul class="list-group list-group-flush"
+              style="color: var(--Gray-1, #333); font-family: Open Sans; font-size: 14px; font-style: normal; font-weight: 400; line-height: normal; text-transform: capitalize;">
+              <li class="list-group-item">50m Borboleta <span class="float-end">15/20</span></li>
+              <li class="list-group-item">50m Costas <span class="float-end">15/20</span></li>
+              <li class="list-group-item">50m Livre <span class="float-end">15/20</span></li>
+              <li class="list-group-item">50m Peito <span class="float-end">15/20</span></li>
+              <li class="list-group-item">100m Livre <span class="float-end">15/20</span></li>
+              <li class="list-group-item">4x50m Medley <span class="float-end">15/20</span></li>
+              <li class="list-group-item">4x50m Revezamento Livre <span class="float-end">15/20</span></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyVZ5nFZDfrjzIuR7fACGQzIebq11c1IbG"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
