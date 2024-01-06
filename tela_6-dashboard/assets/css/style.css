@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.estado{
+    height: 14px;   
+    border-radius: 14.146px;
+}
+
+#confirmado{
+    background-color: #219653; 
+}
+
+#a-pagar{
+    background-color: #BB6BD9;
+}
+.estado > p{
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Open Sans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.modalidade-card{
+    width: 256px;
+}
+
+.esporte-card .btn{
+    margin-top: 35px;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.862px;
+    border-radius: 6px;
+    
+}
+
+
+#pagamento{
+    background-color: #0095D9;
+    border: 0.943px solid #FFF;
+}
+.esporte-card{
+    padding: 15px;
+    width: min-content;
+    border-radius: 8px;
+}
+
+.modalidade-texto > p{
+    color: #333;
+    font-family: Open Sans;
+    width: fit-content;
+}
+
+.suas-inscricoes{
+    color: #333;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+#suas-inscricoes-tudo{
+    margin: 33px 0px 0px 238px;
+}
+
+.buttons-container{
+  gap: 20px;
+}
+
+#modalidades{
+  padding: 8px 8px 28px 8px;
+}
+
+.dashboard-container{
+  width: 12.5rem;
+}
+
+#awe_logo{
+  padding: 5.55px;
+}
+
+.dashboard{
+    height: 100vh;
+    padding: 2rem;
+    width: min-content;
+}
+
+#menu_bar{
+    padding: 11.43px;
+}

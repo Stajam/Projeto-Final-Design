@@ -1,3 +1,48 @@
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.login-title {
+  color: #307FE2;
+  border-bottom: 3px solid #307FE2;
+  padding-bottom: 5px;
+}
+
+.button-next {
+  cursor: pointer;
+}
+
+.nome_perfil{
+  font-size: 14px;
+}
+
+.status_perfil{
+  font-size: 12px;
+}
+
+.confirmado{
+  background-color: #219653;
+}
+
+.status{
+  border-radius: 16px;
+  padding: .24rem .55rem;
+  font-size: 14px;
+}
+
+.a-pagar{
+  background-color: #BB6BD9;
+}
+
+.modalidade{
+  font-variant-numeric: lining-nums tabular-nums;
+=======
 html {
   height: 100%;
   width: 100%;
@@ -118,4 +163,5 @@ body{
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
 }

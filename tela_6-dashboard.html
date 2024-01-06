@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="tela_7" class="d-flex">
+<div class="dashboard d-flex flex-column justify-content-between border-end">
+  <div class="dashboard-box d-flex align-items-start">
+    <div class="dashboard-container d-flex flex-column gap-3">
+      <img id="awe_logo" src="assets/img/awe_logo.svg" style="width: 62px">
+      <div class="buttons-container d-flex flex-column">
+        <div class="dash-item d-flex gap-2 p-2">
+          <img src="assets/img/home_icon.svg">
+          <p class="m-0">Dashboard</p>
+        </div>
+      
+        <div id="modalidades" class="dash-item d-flex gap-2">
+          <img src="assets/img/star_icon.svg">
+          <p class="m-0">Modalidades</p>
+        </div>
+        
+        <div class="dash-item d-flex gap-2 p-2">
+          <img src="assets/img/exit_icon.svg">
+          <p class="m-0 text-danger">Sair</p>
+        </div>
+      </div>
+    </div>
+    <img id="menu_bar" src="assets/img/menu_bar.svg">
+  </div>
+  <div class="perfil d-flex gap-2">
+    <img src="assets/img/icon_user_circle.svg">
+    <p class="m-0" style="width: 115px; height: fit-content;">Jr Programador<br><span>Atleta</span></p>
+  </div>
+</div>
+<section id="suas-inscricoes-tudo">
+<h2 class="suas-inscricoes">Suas inscrições</h2>
+<div class="esporte-card border mb-3">
+    <div class="modalidade-card d-flex align-items-center">
+        <div class="modalidade-texto d-flex align-items-center">
+            <p class="modalidade-esporte m-0 me-3">Vôlei de quadra</p>
+            <div id="confirmado" class="estado d-flex align-items-center ms-3">
+                <p class="m-0 px-2">Confirmado</p>
+            </div>
+        </div>
+        <img class="ms-auto" src="assets/img/volei.svg">
+    </div>
+    <button id="detalhes" type="button" class="btn btn-link text-decoration-none link-dark border">Detalhes</button>
+</div>
+
+<div class="esporte-card border">
+    <div class="modalidade-card d-flex align-items-center">
+        <div class="modalidade-texto d-flex align-items-center">
+            <p class="modalidade-esporte m-0 me-3">Futebol society</p>
+            <div id="a-pagar" class="estado d-flex align-items-center ms-3">
+                <p class="m-0 px-2">A pagar</p>
+            </div>
+        </div>
+        <img class="ms-auto" src="assets/img/futebol.svg">
+    </div>
+    <div class="d-flex justify-content-between">
+        <button id="detalhes" type="button" class="btn btn-link text-decoration-none link-dark border">Detalhes</button>
+        <button id="pagamento" type="button" class="btn btn-primary">Efetuar pagamento</button>
+    </div>
+</div>
+</section>
+</section>
+</body>
+</html>
