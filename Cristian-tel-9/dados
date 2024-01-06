@@ -1,0 +1,11 @@
+ <section class="listas">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 1.svg"> <p><strong>Dan Goiás</strong> <br> <strong> INFO</strong> | Categorias: 4x50m revezamento livre</p> <div class="linha-cima"> Confirmado </div><div class="h1"> <p>1H</p></div></li>
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 2.svg"> <p><strong>Davi Lu</strong> <br> <strong> COMÉRCIO</strong> | Categorias: 4x50m revezamento livre</p></li>
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 3.svg"> <p><strong>Edi Jr</strong><br> <strong> COMÉRCIO</strong> | Categorias: 4x50m revezamento livre</p></li>
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 4.svg"> <p><strong>Mr Cruz </strong><br> <strong> INFO</strong> | Categorias: 4x50m revezamento livre</p></li>
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 5.svg"> <p><strong>Carl Late</strong><br><strong> INFO</strong>  | Categorias: 4x50m revezamento livre</p></li>
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 6.svg"> <p><strong>Rick Lopes</strong><br><strong> ELETRO</strong>  | Categorias: 4x50m revezamento livre</p></li>
+      <li class="list-group-item" id="lista-geral"><img src="assets/img/Ellipse 7.svg"> <p><strong> Té Obalde</strong> <br><strong> ELETRO</strong>  | Categorias: 4x50m revezamento livre</p></li>
+    </ul>
+  </section>
