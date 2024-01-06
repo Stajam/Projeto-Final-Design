@@ -1,1 +1,215 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 
+.tela-11-cadastro *{
+  box-sizing: border-box;
+}
+
+.header{
+  border-bottom: 1px solid #BBB; 
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.breadcrunb{
+  width: min-content;
+  padding: 0px 10px 0px 10px;
+}
+
+.header > h2{
+  padding: 10px;
+  width: fit-content;
+  color: var(--Gray-1, #333);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header span{
+  color: #555;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.forms-cadastro-modalidade{
+  gap: 10px;
+  padding: 2rem;
+  border: 1px solid #EEE;
+  border-radius: 8px;
+}
+
+.forms-cadastro-modalidade>div{
+  color: var(--Gray-1, #333) !important;
+  font-family: Open Sans !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
+
+.forms-cadastro-modalidade>div>.form-control{
+  color: #828282;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.forms-cadastro-modalidade > div{
+  width: fit-content !important;
+}
+
+.card-info p{
+  color: #333;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-info span{
+  color: #4F4F4F;
+  font-weight: 400; 
+}
+
+#exibir-categorias{
+  color: var(--A1, #0095D9);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline; 
+}
+#individual{
+  background-color: #E9F8FF;
+  border-radius: 100px; 
+  width: 67px;
+  height: 20px;
+}
+
+#individual > p{
+  color: #0095D9;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.card-info{
+  gap: 20px;
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+}
+
+.ibagem{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+#inscricoes{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.btn-primary{
+  background-color: #0095D9 !important;
+  border: none !important;
+  width: 164px !important;
+  font-family: Poppins !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 170% !important;
+  margin-top: 31px !important;
+  justify-self: flex-end !important;
+}
+
+.forms-cadastro-modalidade > div > .form-control{
+  padding: 12px 16px 12px 16px;
+}
+
+.breadcrunb > p{
+  color:  #0095D9;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.buttons-container{
+  gap: 20px;
+}
+
+#modalidades{
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  background: #F5F5F5;
+}
+
+#modalidades-container{
+  padding-bottom: 20px;
+}
+
+.dash-item p{
+  color:#333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px; 
+}
+
+#modalidades p{
+  color: #0095D9;
+}
+
+.perfil p{
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.perfil span{
+  color:  #4F4F4F;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.dashboard-container{
+  width: 12.5rem;
+}
+
+#awe_logo{
+  padding: 5.55px;
+}
+
+.dashboard{
+    height: 100vh;
+    padding: 2rem;
+    width: min-content;
+}
+
+#menu_bar{
+    padding: 11.43px;
+}
+
+.container{
+  margin-left: 237px !important;
+}
