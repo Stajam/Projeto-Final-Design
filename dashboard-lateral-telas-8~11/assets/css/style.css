@@ -1,0 +1,64 @@
+.buttons-container{
+  gap: 20px;
+}
+
+#modalidades{
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  background: #F5F5F5;
+}
+
+#modalidades-container{
+  padding-bottom: 20px;
+}
+
+.dash-item p{
+  color:#333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px; 
+}
+
+#modalidades p{
+  color: #0095D9;
+}
+
+.perfil p{
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.perfil span{
+  color:  #4F4F4F;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.dashboard-container{
+  width: 12.5rem;
+}
+
+#awe_logo{
+  padding: 5.55px;
+}
+
+.dashboard{
+    height: 100vh;
+    padding: 2rem;
+    width: min-content;
+}
+
+#menu_bar{
+    padding: 11.43px;
+}
+
+.container{
+  margin-left: 237px !important;
+}
