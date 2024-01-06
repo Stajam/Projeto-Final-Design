@@ -1,1 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  border-bottom: 1px solid #BBB;
+}
+
+.breadcrunb{
+  width: min-content;
+  padding: 0px 10px 0px 10px;
+}
+
+.breadcrunb p{
+  color: #0095D9;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.breadcrunb span{
+  color: #555;
+  font-weight: 400; 
+}
+
+.breadcrunb a{
+  text-decoration: none;
+}
+
+
+#down > h2{
+  color: #333;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+}
+
+.botões-cadastro{
+  gap: 1.5rem;
+  width: fit-content;
+}
+
+.botões-cadastro > button{
+  height: 40px;
+}
+
+.relatorio > img{
+  margin-right: 10px;
+}
+
+.relatorio > p{
+  color: var(--A1, #0095D9);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.relatorio{
+  border-radius: 6px !important;
+  border: 1px solid #0095D9 !important;
+  background:  #FFF !important;
+}
+
+.cadastrar-modalidade{
+  border-radius: 6px !important;
+  background-color: #0095D9 !important;
+  border: none !important; 
+}
+
+.cadastrar-modalidade{
+  color: #FFF
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+
+
+
+#pesquisa{
+  width: 394px;
+  padding-left: 45px;
+}
+
+.navigation{
+  padding: 16px 30px 16px 30px;
+  background-color: #F4F4F4;
+  border-radius: 8px 8px 0px 0px; 
+}
+
+.pesquisa-box{
+  position: relative;
+}
+
+.pesquisa-box img{
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+.filtros{
+  width: min-content !important;
+  color: var(--Gray-1, #333) !important;
+  font-family: Open Sans !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+
+#curso, #categoria{
+  background-image: url(assets/img/down_arrow_blue.svg) !important;
+  background-size: 11.5px 6.5px;
+  padding: 11px 36px 11px 15px; 
+}
+
+.table-header{
+  gap: 1.25rem;
+  padding: 16px 30px 16px 30px;
+}
+
+.table-header p{
+  width: min-content;
+  color: #333;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#modalidade-header{
+  width: 260px;
+  
+}
+
+#tipo-header{
+  width: 180px;
+}
+
+#inscritos-header{
+  width: 200px;
+}
+
+
+
+.linha{
+  gap: 1.25rem;
+  padding: 8px 30px 8px 30px;
+}
+
+#modalidade-box{
+  width: 220px;
+  padding: 8px;
+}
+
+#individual-box{
+  width: 170px;
+}
+
+#inscritos-box{
+  width: 291px;
+  padding: 8px;
+}
+
+#individual{
+    background-color: #E9F8FF;
+    border-radius: 100px; 
+    width: 67px;
+    height: 20px;
+}
+
+#individual > p{
+    color: #0095D9;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+#modalidade-box, #inscritos-box{
+  color: #4F4F4F;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
 
